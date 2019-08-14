@@ -1,0 +1,23 @@
+PODS:
+  - CCAnimatedTransKit (0.1.0):
+    - CCATKExtention
+  - CCATKExtention (0.1.2)
+
+DEPENDENCIES:
+  - CCAnimatedTransKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CCATKExtention
+
+EXTERNAL SOURCES:
+  CCAnimatedTransKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCAnimatedTransKit: c85e4c3722f688a395285d645dcf22f8b33f42c2
+  CCATKExtention: cecc492f6de469469aff0db965f7dc6af3d35709
+
+PODFILE CHECKSUM: 09c0946e0f693a98e8120e13c5472016c961aa82
+
+COCOAPODS: 1.7.4

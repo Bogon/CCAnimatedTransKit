@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D5C7876D09ADFE1580A191605CD40C /* CCATKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860D527896F08B7C5DCA0142F2EA64C /* CCATKBaseViewController.m */; };
+		08CB8E6AFB647DCA814C82C5B86E1DA0 /* CCAnimatedTransKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C570935B4B2BA0F391FF256CBDC12400 /* CCAnimatedTransKit-dummy.m */; };
+		14B728A0DAD099A19653C0EACE4BC120 /* CCATKBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F77E253539F24D9414346E8B55F8FA15 /* CCATKBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD12C1DF6B9A0B9BCEC9E32131A6C22 /* CCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C97E31D0318A18668C625C075C3A1D0 /* CCAnimatedTransitioning.m */; };
+		30268D526A946C2018F1A78892F7A801 /* Pods-CCAnimatedTransKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964C96CB36EFF39CCE5E11461FFDF1E7 /* Pods-CCAnimatedTransKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38041487560617C75461912E955C6C7C /* CCAnimatedTransKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F296507FB3226D86D09317FFC0EC5BE6 /* CCAnimatedTransKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4EA8D28EC4261B7D31934706D7402D /* Pods-CCAnimatedTransKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6D043EF92A8C3D21BF14E07FD625F /* Pods-CCAnimatedTransKit_Tests-dummy.m */; };
+		6FAE73FAE9771B640A2D3C246FA413DE /* CCAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4B8EDC472E36C67BE310D09D6D7B2C /* CCAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83155CFB276FC5E2126ED3F5041F116D /* CCATKExtention-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C96269731318F7FAE2A2E2A7EEC1E70 /* CCATKExtention-dummy.m */; };
+		906E247B903A52E781DF378EA966D2D1 /* CCATKExtention-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BFFF0EC7EF4898788C0E0967E02F7C /* CCATKExtention-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908105E38BD0B212642BEFE3071FA84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */; };
+		98D756DAA689AA948BDC0D1902A1772E /* CCATKExtention.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B13F06FBA30D1BB0971AFF3C424987 /* CCATKExtention.framework */; };
+		A9010A5C5DC584E86B56272F6B7656F2 /* UIViewController+ATK.m in Sources */ = {isa = PBXBuildFile; fileRef = F5236619DBA3EBB30C359AA8C75E7F28 /* UIViewController+ATK.m */; };
+		AACA7DB22E213322283160E21C7F21B8 /* UINavigationController+ATK.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A855D796F9CB8BDC96F573D246911F /* UINavigationController+ATK.m */; };
+		D241C666E4EF762DAA98C10F2DCE0491 /* UINavigationController+ATK.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2EC8BA9975FFAFCB55CD93710388A2 /* UINavigationController+ATK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D56BB2917FE292DEBA245ACA6B751A37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */; };
+		DD4238AF9B27899EEDB046C4E26811F8 /* UIViewController+ATK.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BAA5FBD46A1B837A65DB1ACF1A90D0 /* UIViewController+ATK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE17B5FD08888E2D0211262BA3AEA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D317AAC40483871E497C26ECE3EED94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F14BE4BB36643F9039841AF8954B117;
+			remoteInfo = CCATKExtention;
+		};
+		F87342BAD2C7CC765DD01F2581FA674C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8582D98A04392B39D3C15D2C0584F9B;
+			remoteInfo = CCAnimatedTransKit;
+		};
+		FAF7216C4ED243A284E1DE57B495B85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F14BE4BB36643F9039841AF8954B117;
+			remoteInfo = CCATKExtention;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCAnimatedTransKit_Tests.framework; path = "Pods-CCAnimatedTransKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCATKExtention.xcconfig; sourceTree = "<group>"; };
+		0C96269731318F7FAE2A2E2A7EEC1E70 /* CCATKExtention-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCATKExtention-dummy.m"; sourceTree = "<group>"; };
+		14340B1F3680E4B5D5A9D5B2F9792944 /* Pods-CCAnimatedTransKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCAnimatedTransKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C97E31D0318A18668C625C075C3A1D0 /* CCAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2734ED591E05AB7B0FF91239BA87CB16 /* Pods-CCAnimatedTransKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCAnimatedTransKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A4A4B21400F070388F0BF52BF5440F2 /* Pods-CCAnimatedTransKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCAnimatedTransKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCAnimatedTransKit.xcconfig; sourceTree = "<group>"; };
+		5681715B240869F98ED9AEC8BBF8D00D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		57BF0BC2F8B5D1665C9C747DE893F0D3 /* CCATKExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCATKExtention.framework; path = CCATKExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D586AC8A7E0222DA8403754B08871E6 /* Pods-CCAnimatedTransKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCAnimatedTransKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6860D527896F08B7C5DCA0142F2EA64C /* CCATKBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCATKBaseViewController.m; sourceTree = "<group>"; };
+		6A7E7DE5EA6E669B44DBB3F994E42A05 /* CCAnimatedTransKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCAnimatedTransKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73D6D043EF92A8C3D21BF14E07FD625F /* Pods-CCAnimatedTransKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCAnimatedTransKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		7475A34B1D5312536DF962ABEFDF9D98 /* CCAnimatedTransKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCAnimatedTransKit.modulemap; sourceTree = "<group>"; };
+		8AA932255D8672FD96159D9EE9B0EC82 /* CCAnimatedTransKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCAnimatedTransKit.framework; path = CCAnimatedTransKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9269B5B823F467737ED36DCD20B46216 /* CCAnimatedTransKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCAnimatedTransKit-Info.plist"; sourceTree = "<group>"; };
+		957316AD91D0390F028466A8BFB79972 /* Pods-CCAnimatedTransKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCAnimatedTransKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		964C96CB36EFF39CCE5E11461FFDF1E7 /* Pods-CCAnimatedTransKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCAnimatedTransKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6BAA5FBD46A1B837A65DB1ACF1A90D0 /* UIViewController+ATK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ATK.h"; path = "CCATKExtention/Classes/UIViewController+ATK.h"; sourceTree = "<group>"; };
+		AD28491EA5459129417605B4F9926168 /* CCATKExtention-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCATKExtention-Info.plist"; sourceTree = "<group>"; };
+		AE2EC8BA9975FFAFCB55CD93710388A2 /* UINavigationController+ATK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ATK.h"; sourceTree = "<group>"; };
+		B0BFFF0EC7EF4898788C0E0967E02F7C /* CCATKExtention-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCATKExtention-umbrella.h"; sourceTree = "<group>"; };
+		B7203DA122C8D67A9E4C85A13407A7E1 /* CCAnimatedTransKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAnimatedTransKit-prefix.pch"; sourceTree = "<group>"; };
+		C570935B4B2BA0F391FF256CBDC12400 /* CCAnimatedTransKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCAnimatedTransKit-dummy.m"; sourceTree = "<group>"; };
+		CBC256DF8DE3FB559C29F8287C50CDC0 /* CCATKExtention-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCATKExtention-prefix.pch"; sourceTree = "<group>"; };
+		CBCEBA2CDEBE347CD4C7774B37EC847C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CF4B8EDC472E36C67BE310D09D6D7B2C /* CCAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCAnimatedTransitioning.h; sourceTree = "<group>"; };
+		D5A855D796F9CB8BDC96F573D246911F /* UINavigationController+ATK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ATK.m"; sourceTree = "<group>"; };
+		D6596FC42F7348A99C8E7DE1E995E220 /* Pods-CCAnimatedTransKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCAnimatedTransKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6C24768269780794ACBD378BD888257 /* CCATKExtention.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCATKExtention.modulemap; sourceTree = "<group>"; };
+		E7B13F06FBA30D1BB0971AFF3C424987 /* CCATKExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCATKExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F296507FB3226D86D09317FFC0EC5BE6 /* CCAnimatedTransKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAnimatedTransKit-umbrella.h"; sourceTree = "<group>"; };
+		F5236619DBA3EBB30C359AA8C75E7F28 /* UIViewController+ATK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ATK.m"; path = "CCATKExtention/Classes/UIViewController+ATK.m"; sourceTree = "<group>"; };
+		F77E253539F24D9414346E8B55F8FA15 /* CCATKBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCATKBaseViewController.h; sourceTree = "<group>"; };
+		FA7C728CAC26D86E4A614029A23DB4CF /* Pods-CCAnimatedTransKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCAnimatedTransKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7B04065FFFFEAFEDE756DC269293C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE17B5FD08888E2D0211262BA3AEA1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70AAF57CBAC1AB9E94EC58AD06090A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908105E38BD0B212642BEFE3071FA84C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD7543DB118D855EB612136849947D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D756DAA689AA948BDC0D1902A1772E /* CCATKExtention.framework in Frameworks */,
+				D56BB2917FE292DEBA245ACA6B751A37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E9E941EB690325C4194F71C3411C82 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC40B4A5E63587F99283053046C3CF17 /* CCAnimatedTransKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		382586250ABEDF9B3CFF6A3D4370F4AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6C24768269780794ACBD378BD888257 /* CCATKExtention.modulemap */,
+				0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */,
+				0C96269731318F7FAE2A2E2A7EEC1E70 /* CCATKExtention-dummy.m */,
+				AD28491EA5459129417605B4F9926168 /* CCATKExtention-Info.plist */,
+				CBC256DF8DE3FB559C29F8287C50CDC0 /* CCATKExtention-prefix.pch */,
+				B0BFFF0EC7EF4898788C0E0967E02F7C /* CCATKExtention-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCATKExtention";
+			sourceTree = "<group>";
+		};
+		721CB7EA89DD6CC88451D52071DA3018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				943C3A6B85D88135F7B5C334FC750337 /* CCATKExtention */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88F2295D1E0562B99D3A125B87CF24E5 /* Pods-CCAnimatedTransKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D586AC8A7E0222DA8403754B08871E6 /* Pods-CCAnimatedTransKit_Tests.modulemap */,
+				D6596FC42F7348A99C8E7DE1E995E220 /* Pods-CCAnimatedTransKit_Tests-acknowledgements.markdown */,
+				2734ED591E05AB7B0FF91239BA87CB16 /* Pods-CCAnimatedTransKit_Tests-acknowledgements.plist */,
+				73D6D043EF92A8C3D21BF14E07FD625F /* Pods-CCAnimatedTransKit_Tests-dummy.m */,
+				957316AD91D0390F028466A8BFB79972 /* Pods-CCAnimatedTransKit_Tests-frameworks.sh */,
+				3A4A4B21400F070388F0BF52BF5440F2 /* Pods-CCAnimatedTransKit_Tests-Info.plist */,
+				964C96CB36EFF39CCE5E11461FFDF1E7 /* Pods-CCAnimatedTransKit_Tests-umbrella.h */,
+				14340B1F3680E4B5D5A9D5B2F9792944 /* Pods-CCAnimatedTransKit_Tests.debug.xcconfig */,
+				FA7C728CAC26D86E4A614029A23DB4CF /* Pods-CCAnimatedTransKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCAnimatedTransKit_Tests";
+			path = "Target Support Files/Pods-CCAnimatedTransKit_Tests";
+			sourceTree = "<group>";
+		};
+		8DF022AF2524D9B363EDDCB39E49830B /* CCATKTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B8EDC472E36C67BE310D09D6D7B2C /* CCAnimatedTransitioning.h */,
+				1C97E31D0318A18668C625C075C3A1D0 /* CCAnimatedTransitioning.m */,
+			);
+			name = CCATKTransition;
+			path = CCAnimatedTransKit/Classes/CCATKTransition;
+			sourceTree = "<group>";
+		};
+		942E198E021479F0E9267156745ADE00 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E7DE5EA6E669B44DBB3F994E42A05 /* CCAnimatedTransKit.podspec */,
+				CBCEBA2CDEBE347CD4C7774B37EC847C /* LICENSE */,
+				5681715B240869F98ED9AEC8BBF8D00D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		943C3A6B85D88135F7B5C334FC750337 /* CCATKExtention */ = {
+			isa = PBXGroup;
+			children = (
+				A6BAA5FBD46A1B837A65DB1ACF1A90D0 /* UIViewController+ATK.h */,
+				F5236619DBA3EBB30C359AA8C75E7F28 /* UIViewController+ATK.m */,
+				382586250ABEDF9B3CFF6A3D4370F4AC /* Support Files */,
+			);
+			name = CCATKExtention;
+			path = CCATKExtention;
+			sourceTree = "<group>";
+		};
+		9CCFD6E0811ABFC4783DE995CB0D478E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7475A34B1D5312536DF962ABEFDF9D98 /* CCAnimatedTransKit.modulemap */,
+				4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */,
+				C570935B4B2BA0F391FF256CBDC12400 /* CCAnimatedTransKit-dummy.m */,
+				9269B5B823F467737ED36DCD20B46216 /* CCAnimatedTransKit-Info.plist */,
+				B7203DA122C8D67A9E4C85A13407A7E1 /* CCAnimatedTransKit-prefix.pch */,
+				F296507FB3226D86D09317FFC0EC5BE6 /* CCAnimatedTransKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCAnimatedTransKit";
+			sourceTree = "<group>";
+		};
+		B682E7E5757745391475CA13CA1EBA67 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF56E08383F7CE026A670BB222CF7254 /* CCATKController */ = {
+			isa = PBXGroup;
+			children = (
+				F77E253539F24D9414346E8B55F8FA15 /* CCATKBaseViewController.h */,
+				6860D527896F08B7C5DCA0142F2EA64C /* CCATKBaseViewController.m */,
+				AE2EC8BA9975FFAFCB55CD93710388A2 /* UINavigationController+ATK.h */,
+				D5A855D796F9CB8BDC96F573D246911F /* UINavigationController+ATK.m */,
+			);
+			name = CCATKController;
+			path = CCAnimatedTransKit/Classes/CCATKController;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				10E9E941EB690325C4194F71C3411C82 /* Development Pods */,
+				E8D39B9F342488CBDFD99A1789CD06D6 /* Frameworks */,
+				721CB7EA89DD6CC88451D52071DA3018 /* Pods */,
+				EB3463CF66A7A342EAE18147ADAA2136 /* Products */,
+				E102434CA363353C6422C1530B06C11C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC40B4A5E63587F99283053046C3CF17 /* CCAnimatedTransKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF56E08383F7CE026A670BB222CF7254 /* CCATKController */,
+				8DF022AF2524D9B363EDDCB39E49830B /* CCATKTransition */,
+				942E198E021479F0E9267156745ADE00 /* Pod */,
+				9CCFD6E0811ABFC4783DE995CB0D478E /* Support Files */,
+			);
+			name = CCAnimatedTransKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E102434CA363353C6422C1530B06C11C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88F2295D1E0562B99D3A125B87CF24E5 /* Pods-CCAnimatedTransKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E8D39B9F342488CBDFD99A1789CD06D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B13F06FBA30D1BB0971AFF3C424987 /* CCATKExtention.framework */,
+				B682E7E5757745391475CA13CA1EBA67 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB3463CF66A7A342EAE18147ADAA2136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA932255D8672FD96159D9EE9B0EC82 /* CCAnimatedTransKit.framework */,
+				57BF0BC2F8B5D1665C9C747DE893F0D3 /* CCATKExtention.framework */,
+				0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18D02A348F7AB36CC4C75E5F6B218DDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30268D526A946C2018F1A78892F7A801 /* Pods-CCAnimatedTransKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C0FF4E5F0A907EA5E65D95E3C1AF67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAE73FAE9771B640A2D3C246FA413DE /* CCAnimatedTransitioning.h in Headers */,
+				38041487560617C75461912E955C6C7C /* CCAnimatedTransKit-umbrella.h in Headers */,
+				14B728A0DAD099A19653C0EACE4BC120 /* CCATKBaseViewController.h in Headers */,
+				D241C666E4EF762DAA98C10F2DCE0491 /* UINavigationController+ATK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AE3C893FDD49234CA0E70ADAE615D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906E247B903A52E781DF378EA966D2D1 /* CCATKExtention-umbrella.h in Headers */,
+				DD4238AF9B27899EEDB046C4E26811F8 /* UIViewController+ATK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		573515391A9EC5363F55688178468C3D /* Pods-CCAnimatedTransKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54444054219E0788652462BD067D9390 /* Build configuration list for PBXNativeTarget "Pods-CCAnimatedTransKit_Tests" */;
+			buildPhases = (
+				18D02A348F7AB36CC4C75E5F6B218DDD /* Headers */,
+				3BFEB9413766A4A657F2FC97F5AD9437 /* Sources */,
+				C70AAF57CBAC1AB9E94EC58AD06090A0 /* Frameworks */,
+				AD54667847F3E703B758654B375C05D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F0966156D54F9F7DCC3AAEB6C5BEFC /* PBXTargetDependency */,
+				0922DB8FFA0ADB04FB7E3DB871F89348 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCAnimatedTransKit_Tests";
+			productName = "Pods-CCAnimatedTransKit_Tests";
+			productReference = 0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9549E4F1E169C4C73467A1755F1001 /* Build configuration list for PBXNativeTarget "CCATKExtention" */;
+			buildPhases = (
+				C4AE3C893FDD49234CA0E70ADAE615D1 /* Headers */,
+				48151FBD55013584C0CB9F9CC8EC2C06 /* Sources */,
+				5B7B04065FFFFEAFEDE756DC269293C9 /* Frameworks */,
+				9B800361495032705FE03F98ACFCBA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCATKExtention;
+			productName = CCATKExtention;
+			productReference = 57BF0BC2F8B5D1665C9C747DE893F0D3 /* CCATKExtention.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8582D98A04392B39D3C15D2C0584F9B /* CCAnimatedTransKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA364E3CDE8674F83E0A6E5E544153E6 /* Build configuration list for PBXNativeTarget "CCAnimatedTransKit" */;
+			buildPhases = (
+				91C0FF4E5F0A907EA5E65D95E3C1AF67 /* Headers */,
+				ADE95CA4403AD26E87F547D7CAA23305 /* Sources */,
+				FAD7543DB118D855EB612136849947D8 /* Frameworks */,
+				96CE8C05844A177FABDCFA97CD5E5865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF9E0B52784B7F90D8D72DFC2329CC10 /* PBXTargetDependency */,
+			);
+			name = CCAnimatedTransKit;
+			productName = CCAnimatedTransKit;
+			productReference = 8AA932255D8672FD96159D9EE9B0EC82 /* CCAnimatedTransKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EB3463CF66A7A342EAE18147ADAA2136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8582D98A04392B39D3C15D2C0584F9B /* CCAnimatedTransKit */,
+				8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */,
+				573515391A9EC5363F55688178468C3D /* Pods-CCAnimatedTransKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CE8C05844A177FABDCFA97CD5E5865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B800361495032705FE03F98ACFCBA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD54667847F3E703B758654B375C05D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BFEB9413766A4A657F2FC97F5AD9437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4EA8D28EC4261B7D31934706D7402D /* Pods-CCAnimatedTransKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48151FBD55013584C0CB9F9CC8EC2C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83155CFB276FC5E2126ED3F5041F116D /* CCATKExtention-dummy.m in Sources */,
+				A9010A5C5DC584E86B56272F6B7656F2 /* UIViewController+ATK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE95CA4403AD26E87F547D7CAA23305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD12C1DF6B9A0B9BCEC9E32131A6C22 /* CCAnimatedTransitioning.m in Sources */,
+				08CB8E6AFB647DCA814C82C5B86E1DA0 /* CCAnimatedTransKit-dummy.m in Sources */,
+				05D5C7876D09ADFE1580A191605CD40C /* CCATKBaseViewController.m in Sources */,
+				AACA7DB22E213322283160E21C7F21B8 /* UINavigationController+ATK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0922DB8FFA0ADB04FB7E3DB871F89348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCAnimatedTransKit;
+			target = A8582D98A04392B39D3C15D2C0584F9B /* CCAnimatedTransKit */;
+			targetProxy = F87342BAD2C7CC765DD01F2581FA674C /* PBXContainerItemProxy */;
+		};
+		64F0966156D54F9F7DCC3AAEB6C5BEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCATKExtention;
+			target = 8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */;
+			targetProxy = D317AAC40483871E497C26ECE3EED94B /* PBXContainerItemProxy */;
+		};
+		DF9E0B52784B7F90D8D72DFC2329CC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCATKExtention;
+			target = 8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */;
+			targetProxy = FAF7216C4ED243A284E1DE57B495B85E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B5ECC6BFAB486BF772890FB4499C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCATKExtention/CCATKExtention-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCATKExtention/CCATKExtention-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCATKExtention/CCATKExtention.modulemap";
+				PRODUCT_MODULE_NAME = CCATKExtention;
+				PRODUCT_NAME = CCATKExtention;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87707D0BFEF183920F9F7866D90ECD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14340B1F3680E4B5D5A9D5B2F9792944 /* Pods-CCAnimatedTransKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCAnimatedTransKit_Tests/Pods-CCAnimatedTransKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCAnimatedTransKit_Tests/Pods-CCAnimatedTransKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B938DDDC53B65F1951B6CE7DCF34C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit.modulemap";
+				PRODUCT_MODULE_NAME = CCAnimatedTransKit;
+				PRODUCT_NAME = CCAnimatedTransKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACE58857A067F060E5E6314FC3497163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCATKExtention/CCATKExtention-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCATKExtention/CCATKExtention-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCATKExtention/CCATKExtention.modulemap";
+				PRODUCT_MODULE_NAME = CCATKExtention;
+				PRODUCT_NAME = CCATKExtention;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D281A2313E765014670CF22344BA9AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7C728CAC26D86E4A614029A23DB4CF /* Pods-CCAnimatedTransKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCAnimatedTransKit_Tests/Pods-CCAnimatedTransKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCAnimatedTransKit_Tests/Pods-CCAnimatedTransKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F81500355363BC6E984F98C9D953FD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit.modulemap";
+				PRODUCT_MODULE_NAME = CCAnimatedTransKit;
+				PRODUCT_NAME = CCAnimatedTransKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54444054219E0788652462BD067D9390 /* Build configuration list for PBXNativeTarget "Pods-CCAnimatedTransKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87707D0BFEF183920F9F7866D90ECD34 /* Debug */,
+				D281A2313E765014670CF22344BA9AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9549E4F1E169C4C73467A1755F1001 /* Build configuration list for PBXNativeTarget "CCATKExtention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE58857A067F060E5E6314FC3497163 /* Debug */,
+				1B5ECC6BFAB486BF772890FB4499C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA364E3CDE8674F83E0A6E5E544153E6 /* Build configuration list for PBXNativeTarget "CCAnimatedTransKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B938DDDC53B65F1951B6CE7DCF34C84 /* Debug */,
+				F81500355363BC6E984F98C9D953FD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
