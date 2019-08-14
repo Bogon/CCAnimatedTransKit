@@ -6,12 +6,12 @@
 //
 
 #import "UINavigationController+ATK.h"
-
+#import "CCATKBaseViewController.h"
 @implementation UINavigationController (ATK)
 
 - (void)pushATViewController:(UIViewController *)viewController animated:(BOOL)animated {
     
-    if ([viewController isKindOfClass:[DZMATViewController class]]) {
+    if ([viewController isKindOfClass:[CCATKBaseViewController class]]) {
         
         self.delegate = (id<UINavigationControllerDelegate>)viewController;
     }

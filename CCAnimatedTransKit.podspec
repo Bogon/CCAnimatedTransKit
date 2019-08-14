@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCAnimatedTransKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'CCAnimatedTransKit is used to private animate template for opening book animation.'
 
 # This description is used to generate tags and improve search results.
