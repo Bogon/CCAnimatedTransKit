@@ -6,6 +6,8 @@
 //
 
 #import "CCATKBaseViewController.h"
+#import "CCAnimatedTransitioning.h"
+
 @interface CCATKBaseViewController ()
 
 @end
@@ -42,14 +44,14 @@
     
     if (operation == UINavigationControllerOperationPush) {
         
-        if (fromVC.ATTarget) {
+        if (fromVC.ATKTarget) {
             
             return [[CCAnimatedTransitioning alloc] initWithOperation:operation];
         }
         
     }else if (operation == UINavigationControllerOperationPop) {
         
-        if (toVC.ATTarget) {
+        if (toVC.ATKTarget) {
             
             return [[CCAnimatedTransitioning alloc] initWithOperation:operation];
         }

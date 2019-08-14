@@ -6,6 +6,10 @@
 //
 
 #import "CCAnimatedTransitioning.h"
+#import "UIViewController+ATK.h"
+
+
+#define kCoverTag 888
 
 @interface CCAnimatedTransitioning()
 
@@ -61,7 +65,7 @@
     UIView *containerView = [transitionContext containerView];
     
     
-    UIView *fromView = (from.ATTarget != nil ? from.ATTarget : from.view);
+    UIView *fromView = (from.ATKTarget != nil ? from.ATKTarget : from.view);
     
     CGRect rect = [fromView convertRect:fromView.bounds toView:containerView];
     
@@ -82,7 +86,7 @@
     
     UIImageView *coverView = [self GetImageView: [self screenCapture:fromView]];
     
-    coverView.tag = DZM_TAG_COVER;
+    coverView.tag = kCoverTag;
     
     coverView.frame = CGRectMake(rect.origin.x - (rect.size.width / 2), rect.origin.y, rect.size.width, rect.size.height);
     
@@ -133,7 +137,7 @@
     [containerView addSubview:to.view];
     
     
-    UIView *toView = (to.ATTarget != nil ? to.ATTarget : to.view);
+    UIView *toView = (to.ATKTarget != nil ? to.ATKTarget : to.view);
     
     CGRect rect = [toView convertRect:toView.bounds toView:containerView];
     
@@ -152,7 +156,7 @@
     [containerView addSubview:contentView];
     
     
-    UIImageView *coverView = [containerView viewWithTag:DZM_TAG_COVER];
+    UIImageView *coverView = [containerView viewWithTag:kCoverTag];
     
     coverView.image = [self screenCapture:toView];
     

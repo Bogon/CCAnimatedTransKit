@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCAnimatedTransKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'CCAnimatedTransKit is used to private animate template for opening book animation.'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,5 @@ is used to private animate template for opening book animation. CCAnimatedTransK
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
-  s.dependency 'CCATKExtention'
   
 end

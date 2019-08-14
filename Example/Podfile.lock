@@ -1,5 +1,5 @@
 PODS:
-  - CCAnimatedTransKit (0.1.1)
+  - CCAnimatedTransKit (0.1.2)
 
 DEPENDENCIES:
   - CCAnimatedTransKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CCAnimatedTransKit: 4b14287d471bd218bc3c22271387c0ee79ba88da
+  CCAnimatedTransKit: c390977f4debc18b86511431c7cee9ca8df10624
 
 PODFILE CHECKSUM: 09c0946e0f693a98e8120e13c5472016c961aa82
 
