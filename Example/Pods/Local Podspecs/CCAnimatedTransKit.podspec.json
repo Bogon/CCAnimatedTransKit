@@ -1,6 +1,6 @@
 {
   "name": "CCAnimatedTransKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "CCAnimatedTransKit is used to private animate template for opening book animation.",
   "description": "is used to private animate template for opening book animation. CCAnimatedTransKit 用于提供书籍打开类APP的数据打开动画，该动画提供了完整的动画结构，方便扩展和使用。",
   "homepage": "https://github.com/Bogon/CCAnimatedTransKit",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/Bogon/CCAnimatedTransKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CCAnimatedTransKit/Classes/**/*",
-  "dependencies": {
-    "CCATKExtention": [
-
-    ]
-  }
+  "source_files": "CCAnimatedTransKit/Classes/**/*"
 }

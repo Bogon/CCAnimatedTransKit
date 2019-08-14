@@ -192,12 +192,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CCAnimatedTransKit_Tests/Pods-CCAnimatedTransKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CCATKExtention/CCATKExtention.framework",
 				"${BUILT_PRODUCTS_DIR}/CCAnimatedTransKit/CCAnimatedTransKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCATKExtention.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCAnimatedTransKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

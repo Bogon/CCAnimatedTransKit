@@ -7,114 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D5C7876D09ADFE1580A191605CD40C /* CCATKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860D527896F08B7C5DCA0142F2EA64C /* CCATKBaseViewController.m */; };
-		08CB8E6AFB647DCA814C82C5B86E1DA0 /* CCAnimatedTransKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C570935B4B2BA0F391FF256CBDC12400 /* CCAnimatedTransKit-dummy.m */; };
-		14B728A0DAD099A19653C0EACE4BC120 /* CCATKBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F77E253539F24D9414346E8B55F8FA15 /* CCATKBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD12C1DF6B9A0B9BCEC9E32131A6C22 /* CCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C97E31D0318A18668C625C075C3A1D0 /* CCAnimatedTransitioning.m */; };
-		30268D526A946C2018F1A78892F7A801 /* Pods-CCAnimatedTransKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964C96CB36EFF39CCE5E11461FFDF1E7 /* Pods-CCAnimatedTransKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38041487560617C75461912E955C6C7C /* CCAnimatedTransKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F296507FB3226D86D09317FFC0EC5BE6 /* CCAnimatedTransKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D4EA8D28EC4261B7D31934706D7402D /* Pods-CCAnimatedTransKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6D043EF92A8C3D21BF14E07FD625F /* Pods-CCAnimatedTransKit_Tests-dummy.m */; };
-		6FAE73FAE9771B640A2D3C246FA413DE /* CCAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4B8EDC472E36C67BE310D09D6D7B2C /* CCAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83155CFB276FC5E2126ED3F5041F116D /* CCATKExtention-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C96269731318F7FAE2A2E2A7EEC1E70 /* CCATKExtention-dummy.m */; };
-		906E247B903A52E781DF378EA966D2D1 /* CCATKExtention-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BFFF0EC7EF4898788C0E0967E02F7C /* CCATKExtention-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		908105E38BD0B212642BEFE3071FA84C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */; };
-		98D756DAA689AA948BDC0D1902A1772E /* CCATKExtention.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B13F06FBA30D1BB0971AFF3C424987 /* CCATKExtention.framework */; };
-		A9010A5C5DC584E86B56272F6B7656F2 /* UIViewController+ATK.m in Sources */ = {isa = PBXBuildFile; fileRef = F5236619DBA3EBB30C359AA8C75E7F28 /* UIViewController+ATK.m */; };
-		AACA7DB22E213322283160E21C7F21B8 /* UINavigationController+ATK.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A855D796F9CB8BDC96F573D246911F /* UINavigationController+ATK.m */; };
-		D241C666E4EF762DAA98C10F2DCE0491 /* UINavigationController+ATK.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2EC8BA9975FFAFCB55CD93710388A2 /* UINavigationController+ATK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D56BB2917FE292DEBA245ACA6B751A37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */; };
-		DD4238AF9B27899EEDB046C4E26811F8 /* UIViewController+ATK.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BAA5FBD46A1B837A65DB1ACF1A90D0 /* UIViewController+ATK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAE17B5FD08888E2D0211262BA3AEA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */; };
+		075DCA36DC385FC7E9666F3E567CB207 /* CCATKBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B32A2B970D7DA2C126EE052D202DBCEE /* CCATKBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF7371B4CC50AF990F2FC4C4A3D01AA /* UINavigationController+ATK.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FD12437A45EB48C5E98B5C36B21CEC /* UINavigationController+ATK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C536AE615E586699AF7199A336EA0B /* CCAnimatedTransKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 903F42C3942E7A93BC497BEC8B3506F9 /* CCAnimatedTransKit-dummy.m */; };
+		3C466A9D3E36C7323D09A51B633666D6 /* Pods-CCAnimatedTransKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6D043EF92A8C3D21BF14E07FD625F /* Pods-CCAnimatedTransKit_Tests-dummy.m */; };
+		4971B2F3272B0C28DC8FA94D35C22B0C /* UIViewController+ATK.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AADABB32E12F46443657EB0151788 /* UIViewController+ATK.m */; };
+		6E359A39C65CA81BD943F23C19316FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77B047D6AF16582E2C58F8FD09B3D39C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CD1CFB0AFB0C516359DA05AA3BDF1B7 /* UINavigationController+ATK.m in Sources */ = {isa = PBXBuildFile; fileRef = CB41CBFDE59F5E41384A06FD874DDDB3 /* UINavigationController+ATK.m */; };
+		8CD1D459C37C8276F4349E869693545B /* CCATKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC326512F3CBA000930170303A5A52 /* CCATKBaseViewController.m */; };
+		9FAE6A6D115CCBA3907C49F903274057 /* Pods-CCAnimatedTransKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964C96CB36EFF39CCE5E11461FFDF1E7 /* Pods-CCAnimatedTransKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09F5080B148363635078EEF228B159D /* UIViewController+ATK.h in Headers */ = {isa = PBXBuildFile; fileRef = D9431618A228EEC0BEF5C87C42E49649 /* UIViewController+ATK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C418E37F271991060C2D7395B78398AD /* CCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED592013746C0E73E4D102F3FB32240 /* CCAnimatedTransitioning.m */; };
+		E064373F227E924CB014CC742FA04FD9 /* CCAnimatedTransKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE04AF6460D4CAC0FDB177183C921C3 /* CCAnimatedTransKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E340343C4AF2C0B8FFE2A5AD07B811B2 /* CCAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = E83636BE816CC2A3D829A4FAB2FBFD89 /* CCAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D317AAC40483871E497C26ECE3EED94B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F14BE4BB36643F9039841AF8954B117;
-			remoteInfo = CCATKExtention;
-		};
-		F87342BAD2C7CC765DD01F2581FA674C /* PBXContainerItemProxy */ = {
+		C8FEA059E3FCDE1EB26AEEBD797CD4D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A8582D98A04392B39D3C15D2C0584F9B;
 			remoteInfo = CCAnimatedTransKit;
 		};
-		FAF7216C4ED243A284E1DE57B495B85E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F14BE4BB36643F9039841AF8954B117;
-			remoteInfo = CCATKExtention;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCAnimatedTransKit_Tests.framework; path = "Pods-CCAnimatedTransKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCATKExtention.xcconfig; sourceTree = "<group>"; };
-		0C96269731318F7FAE2A2E2A7EEC1E70 /* CCATKExtention-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCATKExtention-dummy.m"; sourceTree = "<group>"; };
+		0AFC326512F3CBA000930170303A5A52 /* CCATKBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCATKBaseViewController.m; sourceTree = "<group>"; };
+		0ED592013746C0E73E4D102F3FB32240 /* CCAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		14340B1F3680E4B5D5A9D5B2F9792944 /* Pods-CCAnimatedTransKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCAnimatedTransKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C97E31D0318A18668C625C075C3A1D0 /* CCAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		2734ED591E05AB7B0FF91239BA87CB16 /* Pods-CCAnimatedTransKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCAnimatedTransKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29FD12437A45EB48C5E98B5C36B21CEC /* UINavigationController+ATK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ATK.h"; sourceTree = "<group>"; };
+		2A4AADABB32E12F46443657EB0151788 /* UIViewController+ATK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ATK.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A4A4B21400F070388F0BF52BF5440F2 /* Pods-CCAnimatedTransKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCAnimatedTransKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCAnimatedTransKit.xcconfig; sourceTree = "<group>"; };
-		5681715B240869F98ED9AEC8BBF8D00D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		57BF0BC2F8B5D1665C9C747DE893F0D3 /* CCATKExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCATKExtention.framework; path = CCATKExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE04AF6460D4CAC0FDB177183C921C3 /* CCAnimatedTransKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAnimatedTransKit-umbrella.h"; sourceTree = "<group>"; };
 		5D586AC8A7E0222DA8403754B08871E6 /* Pods-CCAnimatedTransKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCAnimatedTransKit_Tests.modulemap"; sourceTree = "<group>"; };
-		6860D527896F08B7C5DCA0142F2EA64C /* CCATKBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCATKBaseViewController.m; sourceTree = "<group>"; };
-		6A7E7DE5EA6E669B44DBB3F994E42A05 /* CCAnimatedTransKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCAnimatedTransKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73D6D043EF92A8C3D21BF14E07FD625F /* Pods-CCAnimatedTransKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCAnimatedTransKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		7475A34B1D5312536DF962ABEFDF9D98 /* CCAnimatedTransKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCAnimatedTransKit.modulemap; sourceTree = "<group>"; };
 		8AA932255D8672FD96159D9EE9B0EC82 /* CCAnimatedTransKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCAnimatedTransKit.framework; path = CCAnimatedTransKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9269B5B823F467737ED36DCD20B46216 /* CCAnimatedTransKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCAnimatedTransKit-Info.plist"; sourceTree = "<group>"; };
+		903F42C3942E7A93BC497BEC8B3506F9 /* CCAnimatedTransKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCAnimatedTransKit-dummy.m"; sourceTree = "<group>"; };
+		91C25A5E27CF06DF53D7FBC7FD5C8A67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		957316AD91D0390F028466A8BFB79972 /* Pods-CCAnimatedTransKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCAnimatedTransKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		964C96CB36EFF39CCE5E11461FFDF1E7 /* Pods-CCAnimatedTransKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCAnimatedTransKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6BAA5FBD46A1B837A65DB1ACF1A90D0 /* UIViewController+ATK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ATK.h"; path = "CCATKExtention/Classes/UIViewController+ATK.h"; sourceTree = "<group>"; };
-		AD28491EA5459129417605B4F9926168 /* CCATKExtention-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCATKExtention-Info.plist"; sourceTree = "<group>"; };
-		AE2EC8BA9975FFAFCB55CD93710388A2 /* UINavigationController+ATK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ATK.h"; sourceTree = "<group>"; };
-		B0BFFF0EC7EF4898788C0E0967E02F7C /* CCATKExtention-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCATKExtention-umbrella.h"; sourceTree = "<group>"; };
-		B7203DA122C8D67A9E4C85A13407A7E1 /* CCAnimatedTransKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAnimatedTransKit-prefix.pch"; sourceTree = "<group>"; };
-		C570935B4B2BA0F391FF256CBDC12400 /* CCAnimatedTransKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCAnimatedTransKit-dummy.m"; sourceTree = "<group>"; };
-		CBC256DF8DE3FB559C29F8287C50CDC0 /* CCATKExtention-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCATKExtention-prefix.pch"; sourceTree = "<group>"; };
-		CBCEBA2CDEBE347CD4C7774B37EC847C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CF4B8EDC472E36C67BE310D09D6D7B2C /* CCAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCAnimatedTransitioning.h; sourceTree = "<group>"; };
-		D5A855D796F9CB8BDC96F573D246911F /* UINavigationController+ATK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ATK.m"; sourceTree = "<group>"; };
+		A3BE57D79609E67F07AD8E0F3F3639F3 /* CCAnimatedTransKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAnimatedTransKit-prefix.pch"; sourceTree = "<group>"; };
+		AA44F50F8AAA1CBA625871FC3AE3BB4D /* CCAnimatedTransKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCAnimatedTransKit.xcconfig; sourceTree = "<group>"; };
+		B32A2B970D7DA2C126EE052D202DBCEE /* CCATKBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCATKBaseViewController.h; sourceTree = "<group>"; };
+		C6A07D59703F66D396C6942325C77645 /* CCAnimatedTransKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCAnimatedTransKit.modulemap; sourceTree = "<group>"; };
+		CB41CBFDE59F5E41384A06FD874DDDB3 /* UINavigationController+ATK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ATK.m"; sourceTree = "<group>"; };
 		D6596FC42F7348A99C8E7DE1E995E220 /* Pods-CCAnimatedTransKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCAnimatedTransKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6C24768269780794ACBD378BD888257 /* CCATKExtention.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCATKExtention.modulemap; sourceTree = "<group>"; };
-		E7B13F06FBA30D1BB0971AFF3C424987 /* CCATKExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCATKExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F296507FB3226D86D09317FFC0EC5BE6 /* CCAnimatedTransKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCAnimatedTransKit-umbrella.h"; sourceTree = "<group>"; };
-		F5236619DBA3EBB30C359AA8C75E7F28 /* UIViewController+ATK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ATK.m"; path = "CCATKExtention/Classes/UIViewController+ATK.m"; sourceTree = "<group>"; };
-		F77E253539F24D9414346E8B55F8FA15 /* CCATKBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCATKBaseViewController.h; sourceTree = "<group>"; };
+		D6C8365D78417B6E100B7C4EFB707FC2 /* CCAnimatedTransKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCAnimatedTransKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9431618A228EEC0BEF5C87C42E49649 /* UIViewController+ATK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ATK.h"; sourceTree = "<group>"; };
+		DDBDF61F15D2E773BF9268FD847DF79E /* CCAnimatedTransKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCAnimatedTransKit-Info.plist"; sourceTree = "<group>"; };
+		E83636BE816CC2A3D829A4FAB2FBFD89 /* CCAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCAnimatedTransitioning.h; sourceTree = "<group>"; };
 		FA7C728CAC26D86E4A614029A23DB4CF /* Pods-CCAnimatedTransKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCAnimatedTransKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FD3CC32C2CAE00ED755E0516F11335A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B7B04065FFFFEAFEDE756DC269293C9 /* Frameworks */ = {
+		67120D1028C68F4D3CED69FF50F6644A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAE17B5FD08888E2D0211262BA3AEA1D /* Foundation.framework in Frameworks */,
+				77B047D6AF16582E2C58F8FD09B3D39C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C70AAF57CBAC1AB9E94EC58AD06090A0 /* Frameworks */ = {
+		E346FACF2DA945DADED333226437ED7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908105E38BD0B212642BEFE3071FA84C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAD7543DB118D855EB612136849947D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98D756DAA689AA948BDC0D1902A1772E /* CCATKExtention.framework in Frameworks */,
-				D56BB2917FE292DEBA245ACA6B751A37 /* Foundation.framework in Frameworks */,
+				6E359A39C65CA81BD943F23C19316FB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,31 +89,68 @@
 		10E9E941EB690325C4194F71C3411C82 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC40B4A5E63587F99283053046C3CF17 /* CCAnimatedTransKit */,
+				713778D51D8357420ADD1FC9BB9E5EA8 /* CCAnimatedTransKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		382586250ABEDF9B3CFF6A3D4370F4AC /* Support Files */ = {
+		2BAFAD839217EA08BAF1AAE422C697C4 /* CCATKTransition */ = {
 			isa = PBXGroup;
 			children = (
-				D6C24768269780794ACBD378BD888257 /* CCATKExtention.modulemap */,
-				0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */,
-				0C96269731318F7FAE2A2E2A7EEC1E70 /* CCATKExtention-dummy.m */,
-				AD28491EA5459129417605B4F9926168 /* CCATKExtention-Info.plist */,
-				CBC256DF8DE3FB559C29F8287C50CDC0 /* CCATKExtention-prefix.pch */,
-				B0BFFF0EC7EF4898788C0E0967E02F7C /* CCATKExtention-umbrella.h */,
+				E83636BE816CC2A3D829A4FAB2FBFD89 /* CCAnimatedTransitioning.h */,
+				0ED592013746C0E73E4D102F3FB32240 /* CCAnimatedTransitioning.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CCATKExtention";
+			name = CCATKTransition;
+			path = CCAnimatedTransKit/Classes/CCATKTransition;
 			sourceTree = "<group>";
 		};
-		721CB7EA89DD6CC88451D52071DA3018 /* Pods */ = {
+		3A5C2677ACE9D0582055B2BFE264D393 /* CCATKController */ = {
 			isa = PBXGroup;
 			children = (
-				943C3A6B85D88135F7B5C334FC750337 /* CCATKExtention */,
+				B32A2B970D7DA2C126EE052D202DBCEE /* CCATKBaseViewController.h */,
+				0AFC326512F3CBA000930170303A5A52 /* CCATKBaseViewController.m */,
+				29FD12437A45EB48C5E98B5C36B21CEC /* UINavigationController+ATK.h */,
+				CB41CBFDE59F5E41384A06FD874DDDB3 /* UINavigationController+ATK.m */,
+				D9431618A228EEC0BEF5C87C42E49649 /* UIViewController+ATK.h */,
+				2A4AADABB32E12F46443657EB0151788 /* UIViewController+ATK.m */,
 			);
-			name = Pods;
+			name = CCATKController;
+			path = CCAnimatedTransKit/Classes/CCATKController;
+			sourceTree = "<group>";
+		};
+		5A2FD7F0399CB9476092B46A22E42D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA932255D8672FD96159D9EE9B0EC82 /* CCAnimatedTransKit.framework */,
+				0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DD9FEE520D5A5316BF455D322751D9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A07D59703F66D396C6942325C77645 /* CCAnimatedTransKit.modulemap */,
+				AA44F50F8AAA1CBA625871FC3AE3BB4D /* CCAnimatedTransKit.xcconfig */,
+				903F42C3942E7A93BC497BEC8B3506F9 /* CCAnimatedTransKit-dummy.m */,
+				DDBDF61F15D2E773BF9268FD847DF79E /* CCAnimatedTransKit-Info.plist */,
+				A3BE57D79609E67F07AD8E0F3F3639F3 /* CCAnimatedTransKit-prefix.pch */,
+				3AE04AF6460D4CAC0FDB177183C921C3 /* CCAnimatedTransKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCAnimatedTransKit";
+			sourceTree = "<group>";
+		};
+		713778D51D8357420ADD1FC9BB9E5EA8 /* CCAnimatedTransKit */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C2677ACE9D0582055B2BFE264D393 /* CCATKController */,
+				2BAFAD839217EA08BAF1AAE422C697C4 /* CCATKTransition */,
+				DAE0D5B13B55ED20A9345D1FE78A603C /* Pod */,
+				6DD9FEE520D5A5316BF455D322751D9B /* Support Files */,
+			);
+			name = CCAnimatedTransKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		88F2295D1E0562B99D3A125B87CF24E5 /* Pods-CCAnimatedTransKit_Tests */ = {
@@ -168,69 +170,12 @@
 			path = "Target Support Files/Pods-CCAnimatedTransKit_Tests";
 			sourceTree = "<group>";
 		};
-		8DF022AF2524D9B363EDDCB39E49830B /* CCATKTransition */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CF4B8EDC472E36C67BE310D09D6D7B2C /* CCAnimatedTransitioning.h */,
-				1C97E31D0318A18668C625C075C3A1D0 /* CCAnimatedTransitioning.m */,
-			);
-			name = CCATKTransition;
-			path = CCAnimatedTransKit/Classes/CCATKTransition;
-			sourceTree = "<group>";
-		};
-		942E198E021479F0E9267156745ADE00 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6A7E7DE5EA6E669B44DBB3F994E42A05 /* CCAnimatedTransKit.podspec */,
-				CBCEBA2CDEBE347CD4C7774B37EC847C /* LICENSE */,
-				5681715B240869F98ED9AEC8BBF8D00D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		943C3A6B85D88135F7B5C334FC750337 /* CCATKExtention */ = {
-			isa = PBXGroup;
-			children = (
-				A6BAA5FBD46A1B837A65DB1ACF1A90D0 /* UIViewController+ATK.h */,
-				F5236619DBA3EBB30C359AA8C75E7F28 /* UIViewController+ATK.m */,
-				382586250ABEDF9B3CFF6A3D4370F4AC /* Support Files */,
-			);
-			name = CCATKExtention;
-			path = CCATKExtention;
-			sourceTree = "<group>";
-		};
-		9CCFD6E0811ABFC4783DE995CB0D478E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7475A34B1D5312536DF962ABEFDF9D98 /* CCAnimatedTransKit.modulemap */,
-				4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */,
-				C570935B4B2BA0F391FF256CBDC12400 /* CCAnimatedTransKit-dummy.m */,
-				9269B5B823F467737ED36DCD20B46216 /* CCAnimatedTransKit-Info.plist */,
-				B7203DA122C8D67A9E4C85A13407A7E1 /* CCAnimatedTransKit-prefix.pch */,
-				F296507FB3226D86D09317FFC0EC5BE6 /* CCAnimatedTransKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CCAnimatedTransKit";
-			sourceTree = "<group>";
-		};
-		B682E7E5757745391475CA13CA1EBA67 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8FCB2969AA7AB0FF4F6A6D7878E3C377 /* Foundation.framework */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		BF56E08383F7CE026A670BB222CF7254 /* CCATKController */ = {
-			isa = PBXGroup;
-			children = (
-				F77E253539F24D9414346E8B55F8FA15 /* CCATKBaseViewController.h */,
-				6860D527896F08B7C5DCA0142F2EA64C /* CCATKBaseViewController.m */,
-				AE2EC8BA9975FFAFCB55CD93710388A2 /* UINavigationController+ATK.h */,
-				D5A855D796F9CB8BDC96F573D246911F /* UINavigationController+ATK.m */,
-			);
-			name = CCATKController;
-			path = CCAnimatedTransKit/Classes/CCATKController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -238,23 +183,28 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				10E9E941EB690325C4194F71C3411C82 /* Development Pods */,
-				E8D39B9F342488CBDFD99A1789CD06D6 /* Frameworks */,
-				721CB7EA89DD6CC88451D52071DA3018 /* Pods */,
-				EB3463CF66A7A342EAE18147ADAA2136 /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5A2FD7F0399CB9476092B46A22E42D9D /* Products */,
 				E102434CA363353C6422C1530B06C11C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DC40B4A5E63587F99283053046C3CF17 /* CCAnimatedTransKit */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF56E08383F7CE026A670BB222CF7254 /* CCATKController */,
-				8DF022AF2524D9B363EDDCB39E49830B /* CCATKTransition */,
-				942E198E021479F0E9267156745ADE00 /* Pod */,
-				9CCFD6E0811ABFC4783DE995CB0D478E /* Support Files */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = CCAnimatedTransKit;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE0D5B13B55ED20A9345D1FE78A603C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8365D78417B6E100B7C4EFB707FC2 /* CCAnimatedTransKit.podspec */,
+				91C25A5E27CF06DF53D7FBC7FD5C8A67 /* LICENSE */,
+				FD3CC32C2CAE00ED755E0516F11335A6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E102434CA363353C6422C1530B06C11C /* Targets Support Files */ = {
@@ -265,53 +215,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E8D39B9F342488CBDFD99A1789CD06D6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E7B13F06FBA30D1BB0971AFF3C424987 /* CCATKExtention.framework */,
-				B682E7E5757745391475CA13CA1EBA67 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB3463CF66A7A342EAE18147ADAA2136 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8AA932255D8672FD96159D9EE9B0EC82 /* CCAnimatedTransKit.framework */,
-				57BF0BC2F8B5D1665C9C747DE893F0D3 /* CCATKExtention.framework */,
-				0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18D02A348F7AB36CC4C75E5F6B218DDD /* Headers */ = {
+		0B9F680675CE3C46E45C85B3ACA0D3FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30268D526A946C2018F1A78892F7A801 /* Pods-CCAnimatedTransKit_Tests-umbrella.h in Headers */,
+				9FAE6A6D115CCBA3907C49F903274057 /* Pods-CCAnimatedTransKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91C0FF4E5F0A907EA5E65D95E3C1AF67 /* Headers */ = {
+		FE6427B33244FFE039FD1893800633C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FAE73FAE9771B640A2D3C246FA413DE /* CCAnimatedTransitioning.h in Headers */,
-				38041487560617C75461912E955C6C7C /* CCAnimatedTransKit-umbrella.h in Headers */,
-				14B728A0DAD099A19653C0EACE4BC120 /* CCATKBaseViewController.h in Headers */,
-				D241C666E4EF762DAA98C10F2DCE0491 /* UINavigationController+ATK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4AE3C893FDD49234CA0E70ADAE615D1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				906E247B903A52E781DF378EA966D2D1 /* CCATKExtention-umbrella.h in Headers */,
-				DD4238AF9B27899EEDB046C4E26811F8 /* UIViewController+ATK.h in Headers */,
+				E340343C4AF2C0B8FFE2A5AD07B811B2 /* CCAnimatedTransitioning.h in Headers */,
+				E064373F227E924CB014CC742FA04FD9 /* CCAnimatedTransKit-umbrella.h in Headers */,
+				075DCA36DC385FC7E9666F3E567CB207 /* CCATKBaseViewController.h in Headers */,
+				1FF7371B4CC50AF990F2FC4C4A3D01AA /* UINavigationController+ATK.h in Headers */,
+				A09F5080B148363635078EEF228B159D /* UIViewController+ATK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,55 +243,35 @@
 /* Begin PBXNativeTarget section */
 		573515391A9EC5363F55688178468C3D /* Pods-CCAnimatedTransKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54444054219E0788652462BD067D9390 /* Build configuration list for PBXNativeTarget "Pods-CCAnimatedTransKit_Tests" */;
+			buildConfigurationList = E23912D127E43EB48068ECCB1514B457 /* Build configuration list for PBXNativeTarget "Pods-CCAnimatedTransKit_Tests" */;
 			buildPhases = (
-				18D02A348F7AB36CC4C75E5F6B218DDD /* Headers */,
-				3BFEB9413766A4A657F2FC97F5AD9437 /* Sources */,
-				C70AAF57CBAC1AB9E94EC58AD06090A0 /* Frameworks */,
-				AD54667847F3E703B758654B375C05D0 /* Resources */,
+				0B9F680675CE3C46E45C85B3ACA0D3FE /* Headers */,
+				DF5CF715B93B42FB5429AC81663BFC94 /* Sources */,
+				67120D1028C68F4D3CED69FF50F6644A /* Frameworks */,
+				50ED2D1ECE413B2CF0DE20FF40021C17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64F0966156D54F9F7DCC3AAEB6C5BEFC /* PBXTargetDependency */,
-				0922DB8FFA0ADB04FB7E3DB871F89348 /* PBXTargetDependency */,
+				AF9A9C2F2F438A16CF3ED02E93F16026 /* PBXTargetDependency */,
 			);
 			name = "Pods-CCAnimatedTransKit_Tests";
 			productName = "Pods-CCAnimatedTransKit_Tests";
 			productReference = 0501B4A1E4E48F4CA140FC0B063CAD69 /* Pods_CCAnimatedTransKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB9549E4F1E169C4C73467A1755F1001 /* Build configuration list for PBXNativeTarget "CCATKExtention" */;
-			buildPhases = (
-				C4AE3C893FDD49234CA0E70ADAE615D1 /* Headers */,
-				48151FBD55013584C0CB9F9CC8EC2C06 /* Sources */,
-				5B7B04065FFFFEAFEDE756DC269293C9 /* Frameworks */,
-				9B800361495032705FE03F98ACFCBA09 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CCATKExtention;
-			productName = CCATKExtention;
-			productReference = 57BF0BC2F8B5D1665C9C747DE893F0D3 /* CCATKExtention.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A8582D98A04392B39D3C15D2C0584F9B /* CCAnimatedTransKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA364E3CDE8674F83E0A6E5E544153E6 /* Build configuration list for PBXNativeTarget "CCAnimatedTransKit" */;
+			buildConfigurationList = 7F2872991A0DA55DE87373F917628D36 /* Build configuration list for PBXNativeTarget "CCAnimatedTransKit" */;
 			buildPhases = (
-				91C0FF4E5F0A907EA5E65D95E3C1AF67 /* Headers */,
-				ADE95CA4403AD26E87F547D7CAA23305 /* Sources */,
-				FAD7543DB118D855EB612136849947D8 /* Frameworks */,
-				96CE8C05844A177FABDCFA97CD5E5865 /* Resources */,
+				FE6427B33244FFE039FD1893800633C2 /* Headers */,
+				0D296927569A52302F28C455D41CC86C /* Sources */,
+				E346FACF2DA945DADED333226437ED7E /* Frameworks */,
+				1968EE5DD28F04219DD9E95B9AEF4E8D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF9E0B52784B7F90D8D72DFC2329CC10 /* PBXTargetDependency */,
 			);
 			name = CCAnimatedTransKit;
 			productName = CCAnimatedTransKit;
@@ -392,33 +295,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EB3463CF66A7A342EAE18147ADAA2136 /* Products */;
+			productRefGroup = 5A2FD7F0399CB9476092B46A22E42D9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A8582D98A04392B39D3C15D2C0584F9B /* CCAnimatedTransKit */,
-				8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */,
 				573515391A9EC5363F55688178468C3D /* Pods-CCAnimatedTransKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96CE8C05844A177FABDCFA97CD5E5865 /* Resources */ = {
+		1968EE5DD28F04219DD9E95B9AEF4E8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B800361495032705FE03F98ACFCBA09 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD54667847F3E703B758654B375C05D0 /* Resources */ = {
+		50ED2D1ECE413B2CF0DE20FF40021C17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,91 +323,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BFEB9413766A4A657F2FC97F5AD9437 /* Sources */ = {
+		0D296927569A52302F28C455D41CC86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4EA8D28EC4261B7D31934706D7402D /* Pods-CCAnimatedTransKit_Tests-dummy.m in Sources */,
+				C418E37F271991060C2D7395B78398AD /* CCAnimatedTransitioning.m in Sources */,
+				21C536AE615E586699AF7199A336EA0B /* CCAnimatedTransKit-dummy.m in Sources */,
+				8CD1D459C37C8276F4349E869693545B /* CCATKBaseViewController.m in Sources */,
+				7CD1CFB0AFB0C516359DA05AA3BDF1B7 /* UINavigationController+ATK.m in Sources */,
+				4971B2F3272B0C28DC8FA94D35C22B0C /* UIViewController+ATK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48151FBD55013584C0CB9F9CC8EC2C06 /* Sources */ = {
+		DF5CF715B93B42FB5429AC81663BFC94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83155CFB276FC5E2126ED3F5041F116D /* CCATKExtention-dummy.m in Sources */,
-				A9010A5C5DC584E86B56272F6B7656F2 /* UIViewController+ATK.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADE95CA4403AD26E87F547D7CAA23305 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD12C1DF6B9A0B9BCEC9E32131A6C22 /* CCAnimatedTransitioning.m in Sources */,
-				08CB8E6AFB647DCA814C82C5B86E1DA0 /* CCAnimatedTransKit-dummy.m in Sources */,
-				05D5C7876D09ADFE1580A191605CD40C /* CCATKBaseViewController.m in Sources */,
-				AACA7DB22E213322283160E21C7F21B8 /* UINavigationController+ATK.m in Sources */,
+				3C466A9D3E36C7323D09A51B633666D6 /* Pods-CCAnimatedTransKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0922DB8FFA0ADB04FB7E3DB871F89348 /* PBXTargetDependency */ = {
+		AF9A9C2F2F438A16CF3ED02E93F16026 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CCAnimatedTransKit;
 			target = A8582D98A04392B39D3C15D2C0584F9B /* CCAnimatedTransKit */;
-			targetProxy = F87342BAD2C7CC765DD01F2581FA674C /* PBXContainerItemProxy */;
-		};
-		64F0966156D54F9F7DCC3AAEB6C5BEFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CCATKExtention;
-			target = 8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */;
-			targetProxy = D317AAC40483871E497C26ECE3EED94B /* PBXContainerItemProxy */;
-		};
-		DF9E0B52784B7F90D8D72DFC2329CC10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CCATKExtention;
-			target = 8F14BE4BB36643F9039841AF8954B117 /* CCATKExtention */;
-			targetProxy = FAF7216C4ED243A284E1DE57B495B85E /* PBXContainerItemProxy */;
+			targetProxy = C8FEA059E3FCDE1EB26AEEBD797CD4D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B5ECC6BFAB486BF772890FB4499C240 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CCATKExtention/CCATKExtention-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCATKExtention/CCATKExtention-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CCATKExtention/CCATKExtention.modulemap";
-				PRODUCT_MODULE_NAME = CCATKExtention;
-				PRODUCT_NAME = CCATKExtention;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87707D0BFEF183920F9F7866D90ECD34 /* Debug */ = {
+		530361D4A463849102F47C939D864A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14340B1F3680E4B5D5A9D5B2F9792944 /* Pods-CCAnimatedTransKit_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -545,9 +388,9 @@
 			};
 			name = Debug;
 		};
-		9B938DDDC53B65F1951B6CE7DCF34C84 /* Debug */ = {
+		5B7D92703348A652C59E4A3B05CD4CFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */;
+			baseConfigurationReference = AA44F50F8AAA1CBA625871FC3AE3BB4D /* CCAnimatedTransKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -576,9 +419,9 @@
 			};
 			name = Debug;
 		};
-		ACE58857A067F060E5E6314FC3497163 /* Debug */ = {
+		A3259EB955F5AA2978921ED5919AFD70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B8C06F089118033EC04370367877099 /* CCATKExtention.xcconfig */;
+			baseConfigurationReference = AA44F50F8AAA1CBA625871FC3AE3BB4D /* CCAnimatedTransKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -589,23 +432,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CCATKExtention/CCATKExtention-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCATKExtention/CCATKExtention-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CCATKExtention/CCATKExtention.modulemap";
-				PRODUCT_MODULE_NAME = CCATKExtention;
-				PRODUCT_NAME = CCATKExtention;
+				MODULEMAP_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit.modulemap";
+				PRODUCT_MODULE_NAME = CCAnimatedTransKit;
+				PRODUCT_NAME = CCAnimatedTransKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -731,7 +575,7 @@
 			};
 			name = Debug;
 		};
-		D281A2313E765014670CF22344BA9AC6 /* Release */ = {
+		F2144E1195BF2B22F43B2F9CB342338C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA7C728CAC26D86E4A614029A23DB4CF /* Pods-CCAnimatedTransKit_Tests.release.xcconfig */;
 			buildSettings = {
@@ -765,38 +609,6 @@
 			};
 			name = Release;
 		};
-		F81500355363BC6E984F98C9D953FD50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4238742DD2F4058C617C7076AB5862DE /* CCAnimatedTransKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CCAnimatedTransKit/CCAnimatedTransKit.modulemap";
-				PRODUCT_MODULE_NAME = CCAnimatedTransKit;
-				PRODUCT_NAME = CCAnimatedTransKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -809,29 +621,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54444054219E0788652462BD067D9390 /* Build configuration list for PBXNativeTarget "Pods-CCAnimatedTransKit_Tests" */ = {
+		7F2872991A0DA55DE87373F917628D36 /* Build configuration list for PBXNativeTarget "CCAnimatedTransKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87707D0BFEF183920F9F7866D90ECD34 /* Debug */,
-				D281A2313E765014670CF22344BA9AC6 /* Release */,
+				5B7D92703348A652C59E4A3B05CD4CFC /* Debug */,
+				A3259EB955F5AA2978921ED5919AFD70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB9549E4F1E169C4C73467A1755F1001 /* Build configuration list for PBXNativeTarget "CCATKExtention" */ = {
+		E23912D127E43EB48068ECCB1514B457 /* Build configuration list for PBXNativeTarget "Pods-CCAnimatedTransKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACE58857A067F060E5E6314FC3497163 /* Debug */,
-				1B5ECC6BFAB486BF772890FB4499C240 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA364E3CDE8674F83E0A6E5E544153E6 /* Build configuration list for PBXNativeTarget "CCAnimatedTransKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B938DDDC53B65F1951B6CE7DCF34C84 /* Debug */,
-				F81500355363BC6E984F98C9D953FD50 /* Release */,
+				530361D4A463849102F47C939D864A85 /* Debug */,
+				F2144E1195BF2B22F43B2F9CB342338C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

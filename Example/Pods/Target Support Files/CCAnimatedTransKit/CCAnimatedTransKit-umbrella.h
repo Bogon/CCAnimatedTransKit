@@ -12,6 +12,7 @@
 
 #import "CCATKBaseViewController.h"
 #import "UINavigationController+ATK.h"
+#import "UIViewController+ATK.h"
 #import "CCAnimatedTransitioning.h"
 
 FOUNDATION_EXPORT double CCAnimatedTransKitVersionNumber;
